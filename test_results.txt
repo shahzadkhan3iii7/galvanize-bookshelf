@@ -1,0 +1,363 @@
+
+> galvanize-bookshelf@1.0.0 test /Users/Jinx/galvanize/q2w3/q2w3_homework/galvanize-bookshelf/bookshelf_day2
+> mocha "test/part2.routes.test.js"
+
+
+
+  part2 routes
+    1) GET /books
+    2) GET /books/:id
+    3) POST /books
+    4) PATCH /books/:id
+    5) DELETE /books/:id
+
+
+  0 passing (412ms)
+  5 failing
+
+  1) part2 routes GET /books:
+
+      Error: expected [ { id: 7,
+    title: 'AngularJS: Up and Running',
+    author: 'Shyam Seshadri',
+    genre: 'Angular',
+    description: 'If you want to get started with AngularJS, either as a side project, an additional tool, or for your main work, this practical guide teaches you how to use this meta-framework step-by-step, from the basics to advanced concepts. By the end of the book, you\'ll understand how to develop a large, maintainable, and performant application with AngularJS.',
+    coverUrl: 'http://akamaicovers.oreilly.com/images/0636920033486/lrg.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 3,
+    title: 'Functional JavaScript',
+    author: 'Michael Fogus',
+    genre: 'JavaScript',
+    description: 'How can you overcome JavaScript language oddities and unsafe features? With this book, you\'ll learn how to create code that\'s beautiful, safe, and simple to understand and test by using JavaScript\'s functional programming support. Author Michael Fogus shows you how to apply functional-style concepts with Underscore.js, a JavaScript library that facilitates functional programming techniques.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/297/functional_javascript.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 6,
+    title: 'JavaScript with Promises',
+    author: 'Daniel Parker',
+    genre: 'JavaScript',
+    description: 'Asynchronous JavaScript is everywhere, whether you\'re using Ajax, AngularJS, Node.js, or WebRTC. This practical guide shows intermediate to advanced JavaScript developers how Promises can help you manage asynchronous code effectively—including the inevitable flood of callbacks as your codebase grows. You\'ll learn the inner workings of Promises and ways to avoid difficulties and missteps when using them.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/296/javascript_with_promises.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 1,
+    title: 'JavaScript, The Good Parts',
+    author: 'Douglas Crockford',
+    genre: 'JavaScript',
+    description: 'Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that\'s more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 5,
+    title: 'Learning JavaScript Design Patterns',
+    author: 'Addy Osmani',
+    genre: 'JavaScript',
+    description: 'With Learning JavaScript Design Patterns, you\'ll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/295/javascript_design_patterns.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 2,
+    title: 'Learning React Native',
+    author: 'Bonnie Eisenman',
+    genre: 'React',
+    description: 'Get a practical introduction to React Native, the JavaScript framework for writing and deploying fully featured mobile apps that look and feel native. With this hands-on guide, you\'ll learn how to build applications that target iOS, Android, and other mobile platforms instead of browsers. You\'ll also discover how to access platform features such as the camera, user location, and local storage.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/287/learning_react_native.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 4,
+    title: 'React: Up & Running',
+    author: 'Stoyan Stefanov',
+    genre: 'React',
+    description: 'Hit the ground running with React, the open-source technology from Facebook for building rich web applications fast. With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React\'s basic building blocks—and organize them into maintainable, large-scale apps. If you\'re familiar with basic JavaScript syntax, you\'re ready to get started.',
+    coverUrl: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/294/react_up_and_running.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' },
+  { id: 8,
+    title: 'Web Development with Node and Express',
+    author: 'Ethan Brown',
+    genre: 'Node',
+    description: 'Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You\'ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.',
+    coverUrl: 'http://akamaicovers.oreilly.com/images/0636920032977/lrg.jpg',
+    createdAt: '2016-06-26T14:26:16.000Z',
+    updatedAt: '2016-06-26T14:26:16.000Z' } ] response body, got [ { id: 7,
+    title: 'AngularJS: Up and Running',
+    author: 'Shyam Seshadri',
+    genre: 'Angular',
+    description: 'If you want to get started with AngularJS, either as a side project, an additional tool, or for your main work, this practical guide teaches you how to use this meta-framework step-by-step, from the basics to advanced concepts. By the end of the book, you\'ll understand how to develop a large, maintainable, and performant application with AngularJS.',
+    cover_url: 'http://akamaicovers.oreilly.com/images/0636920033486/lrg.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 3,
+    title: 'Functional JavaScript',
+    author: 'Michael Fogus',
+    genre: 'JavaScript',
+    description: 'How can you overcome JavaScript language oddities and unsafe features? With this book, you\'ll learn how to create code that\'s beautiful, safe, and simple to understand and test by using JavaScript\'s functional programming support. Author Michael Fogus shows you how to apply functional-style concepts with Underscore.js, a JavaScript library that facilitates functional programming techniques.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/297/functional_javascript.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 6,
+    title: 'JavaScript with Promises',
+    author: 'Daniel Parker',
+    genre: 'JavaScript',
+    description: 'Asynchronous JavaScript is everywhere, whether you\'re using Ajax, AngularJS, Node.js, or WebRTC. This practical guide shows intermediate to advanced JavaScript developers how Promises can help you manage asynchronous code effectively—including the inevitable flood of callbacks as your codebase grows. You\'ll learn the inner workings of Promises and ways to avoid difficulties and missteps when using them.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/296/javascript_with_promises.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 1,
+    title: 'JavaScript, The Good Parts',
+    author: 'Douglas Crockford',
+    genre: 'JavaScript',
+    description: 'Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that\'s more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 5,
+    title: 'Learning JavaScript Design Patterns',
+    author: 'Addy Osmani',
+    genre: 'JavaScript',
+    description: 'With Learning JavaScript Design Patterns, you\'ll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/295/javascript_design_patterns.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 2,
+    title: 'Learning React Native',
+    author: 'Bonnie Eisenman',
+    genre: 'React',
+    description: 'Get a practical introduction to React Native, the JavaScript framework for writing and deploying fully featured mobile apps that look and feel native. With this hands-on guide, you\'ll learn how to build applications that target iOS, Android, and other mobile platforms instead of browsers. You\'ll also discover how to access platform features such as the camera, user location, and local storage.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/287/learning_react_native.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 4,
+    title: 'React: Up & Running',
+    author: 'Stoyan Stefanov',
+    genre: 'React',
+    description: 'Hit the ground running with React, the open-source technology from Facebook for building rich web applications fast. With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React\'s basic building blocks—and organize them into maintainable, large-scale apps. If you\'re familiar with basic JavaScript syntax, you\'re ready to get started.',
+    cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/294/react_up_and_running.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' },
+  { id: 8,
+    title: 'Web Development with Node and Express',
+    author: 'Ethan Brown',
+    genre: 'Node',
+    description: 'Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You\'ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.',
+    cover_url: 'http://akamaicovers.oreilly.com/images/0636920032977/lrg.jpg',
+    created_at: '2016-06-26T14:26:16.000Z',
+    updated_at: '2016-06-26T14:26:16.000Z' } ]
+      + expected - actual
+
+       [
+         {
+           "author": "Shyam Seshadri"
+      -    "cover_url": "http://akamaicovers.oreilly.com/images/0636920033486/lrg.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "http://akamaicovers.oreilly.com/images/0636920033486/lrg.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "If you want to get started with AngularJS, either as a side project, an additional tool, or for your main work, this practical guide teaches you how to use this meta-framework step-by-step, from the basics to advanced concepts. By the end of the book, you'll understand how to develop a large, maintainable, and performant application with AngularJS."
+           "genre": "Angular"
+           "id": 7
+           "title": "AngularJS: Up and Running"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Michael Fogus"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/297/functional_javascript.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/297/functional_javascript.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "How can you overcome JavaScript language oddities and unsafe features? With this book, you'll learn how to create code that's beautiful, safe, and simple to understand and test by using JavaScript's functional programming support. Author Michael Fogus shows you how to apply functional-style concepts with Underscore.js, a JavaScript library that facilitates functional programming techniques."
+           "genre": "JavaScript"
+           "id": 3
+           "title": "Functional JavaScript"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Daniel Parker"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/296/javascript_with_promises.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/296/javascript_with_promises.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "Asynchronous JavaScript is everywhere, whether you're using Ajax, AngularJS, Node.js, or WebRTC. This practical guide shows intermediate to advanced JavaScript developers how Promises can help you manage asynchronous code effectively—including the inevitable flood of callbacks as your codebase grows. You'll learn the inner workings of Promises and ways to avoid difficulties and missteps when using them."
+           "genre": "JavaScript"
+           "id": 6
+           "title": "JavaScript with Promises"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Douglas Crockford"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code."
+           "genre": "JavaScript"
+           "id": 1
+           "title": "JavaScript, The Good Parts"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Addy Osmani"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/295/javascript_design_patterns.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/295/javascript_design_patterns.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you."
+           "genre": "JavaScript"
+           "id": 5
+           "title": "Learning JavaScript Design Patterns"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Bonnie Eisenman"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/287/learning_react_native.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/287/learning_react_native.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "Get a practical introduction to React Native, the JavaScript framework for writing and deploying fully featured mobile apps that look and feel native. With this hands-on guide, you'll learn how to build applications that target iOS, Android, and other mobile platforms instead of browsers. You'll also discover how to access platform features such as the camera, user location, and local storage."
+           "genre": "React"
+           "id": 2
+           "title": "Learning React Native"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Stoyan Stefanov"
+      -    "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/294/react_up_and_running.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/294/react_up_and_running.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "Hit the ground running with React, the open-source technology from Facebook for building rich web applications fast. With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React's basic building blocks—and organize them into maintainable, large-scale apps. If you're familiar with basic JavaScript syntax, you're ready to get started."
+           "genre": "React"
+           "id": 4
+           "title": "React: Up & Running"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+         {
+           "author": "Ethan Brown"
+      -    "cover_url": "http://akamaicovers.oreilly.com/images/0636920032977/lrg.jpg"
+      -    "created_at": "2016-06-26T14:26:16.000Z"
+      +    "coverUrl": "http://akamaicovers.oreilly.com/images/0636920032977/lrg.jpg"
+      +    "createdAt": "2016-06-26T14:26:16.000Z"
+           "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You'll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express."
+           "genre": "Node"
+           "id": 8
+           "title": "Web Development with Node and Express"
+      -    "updated_at": "2016-06-26T14:26:16.000Z"
+      +    "updatedAt": "2016-06-26T14:26:16.000Z"
+         }
+       ]
+      
+      at error (node_modules/supertest/lib/test.js:265:13)
+      at Test._assertBody (node_modules/supertest/lib/test.js:177:14)
+      at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
+      at Test.assert (node_modules/supertest/lib/test.js:148:18)
+      at Server.assert (node_modules/supertest/lib/test.js:127:12)
+      at emitCloseNT (net.js:1544:8)
+      at _combinedTickCallback (internal/process/next_tick.js:71:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  2) part2 routes GET /books/:id:
+     Error: expected "Content-Type" header field
+      at Test._assertHeader (node_modules/supertest/lib/test.js:209:30)
+      at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
+      at Test.assert (node_modules/supertest/lib/test.js:148:18)
+      at Server.assert (node_modules/supertest/lib/test.js:127:12)
+      at emitCloseNT (net.js:1544:8)
+      at _combinedTickCallback (internal/process/next_tick.js:71:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  3) part2 routes POST /books:
+
+      Error: expected { id: 9,
+  title: 'Think Python',
+  author: 'Allen B. Downey',
+  genre: 'Python',
+  description: 'If you want to learn how to program, working with Python is an excellent way to start. This hands-on guide takes you through the language a step at a time, beginning with basic programming concepts before moving on to functions, recursion, data structures, and object-oriented design. This second edition and its supporting code have been updated for Python 3.',
+  coverUrl: 'https://s3-us-west-2.amazonaws.com/assessment-images/galvanize_reads/photos/think_python.jpg' } response body, got { id: 22,
+  title: 'Think Python',
+  author: 'Allen B. Downey',
+  genre: 'Python',
+  description: 'If you want to learn how to program, working with Python is an excellent way to start. This hands-on guide takes you through the language a step at a time, beginning with basic programming concepts before moving on to functions, recursion, data structures, and object-oriented design. This second edition and its supporting code have been updated for Python 3.',
+  cover_url: '',
+  created_at: '2016-12-14T00:11:33.574Z',
+  updated_at: '2016-12-14T00:11:33.574Z' }
+      + expected - actual
+
+       {
+         "author": "Allen B. Downey"
+      -  "cover_url": ""
+      -  "created_at": "2016-12-14T00:11:33.574Z"
+      +  "coverUrl": "https://s3-us-west-2.amazonaws.com/assessment-images/galvanize_reads/photos/think_python.jpg"
+         "description": "If you want to learn how to program, working with Python is an excellent way to start. This hands-on guide takes you through the language a step at a time, beginning with basic programming concepts before moving on to functions, recursion, data structures, and object-oriented design. This second edition and its supporting code have been updated for Python 3."
+         "genre": "Python"
+      -  "id": 22
+      +  "id": 9
+         "title": "Think Python"
+      -  "updated_at": "2016-12-14T00:11:33.574Z"
+       }
+      
+      at error (node_modules/supertest/lib/test.js:265:13)
+      at Test._assertBody (node_modules/supertest/lib/test.js:177:14)
+      at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
+      at Test.assert (node_modules/supertest/lib/test.js:148:18)
+      at Server.assert (node_modules/supertest/lib/test.js:127:12)
+      at emitCloseNT (net.js:1544:8)
+      at _combinedTickCallback (internal/process/next_tick.js:71:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  4) part2 routes PATCH /books/:id:
+
+      Error: expected { id: 1,
+  title: 'Think like Python',
+  author: 'Allen B. Downey',
+  genre: 'Python stuff',
+  description: 'More Python',
+  coverUrl: 'https://s3-us-west-2.amazonaws.com/assessment-images/galvanize_reads/photos/think_python.jpg' } response body, got { id: 1,
+  title: 'Think like Python',
+  author: 'Allen B. Downey',
+  genre: 'Python stuff',
+  description: 'More Python',
+  cover_url: 'https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg',
+  created_at: '2016-06-26T14:26:16.000Z',
+  updated_at: '2016-06-26T14:26:16.000Z' }
+      + expected - actual
+
+       {
+         "author": "Allen B. Downey"
+      -  "cover_url": "https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/284/javascript_the_good_parts.jpg"
+      -  "created_at": "2016-06-26T14:26:16.000Z"
+      +  "coverUrl": "https://s3-us-west-2.amazonaws.com/assessment-images/galvanize_reads/photos/think_python.jpg"
+         "description": "More Python"
+         "genre": "Python stuff"
+         "id": 1
+         "title": "Think like Python"
+      -  "updated_at": "2016-06-26T14:26:16.000Z"
+       }
+      
+      at error (node_modules/supertest/lib/test.js:265:13)
+      at Test._assertBody (node_modules/supertest/lib/test.js:177:14)
+      at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
+      at Test.assert (node_modules/supertest/lib/test.js:148:18)
+      at Server.assert (node_modules/supertest/lib/test.js:127:12)
+      at emitCloseNT (net.js:1544:8)
+      at _combinedTickCallback (internal/process/next_tick.js:71:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  5) part2 routes DELETE /books/:id:
+     Error: expected "Content-Type" matching /json/, got "text/html; charset=utf-8"
+      at Test._assertHeader (node_modules/supertest/lib/test.js:213:45)
+      at Test._assertFunction (node_modules/supertest/lib/test.js:247:11)
+      at Test.assert (node_modules/supertest/lib/test.js:148:18)
+      at Server.assert (node_modules/supertest/lib/test.js:127:12)
+      at emitCloseNT (net.js:1544:8)
+      at _combinedTickCallback (internal/process/next_tick.js:71:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+
+
